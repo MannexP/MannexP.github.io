@@ -588,3 +588,49 @@ footer{
     opacity: 2;
 }
 
+
+@media only screen
+and (max-width: 600px)
+
+/* Nav
+---------------
+ */
+{
+    .navBar{
+        margin-right:6.8rem; 
+        margin-bottom:0px;
+        
+    }
+    .navBar li a{
+        font-size:100%;
+    }
+
+    .sticky .navBar{ 
+        font-size:80%;
+    }
+    /* Heading
+    -------------
+     */
+
+     .blurb h2{
+        font-size:200%;
+        margin-left:12rem;
+        
+     }
+
+     h2:after{
+        width: 200px;
+        margin: 0 auto;
+        margin-top: 40px; 
+        margin-left: 60px;
+    }
+    .blurb h3{
+      font-size:100%;
+      width:80vw;
+      margin-left: 160px;
+      margin-bottom:50px;
+
+    }
+
+
+}  
