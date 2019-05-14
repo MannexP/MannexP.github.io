@@ -984,7 +984,7 @@ and (max-width: 414px)
     Projects
     --------------------------- */
 .projects {
- background:orange;
+ display:none;
   
 }
 
