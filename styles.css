@@ -984,22 +984,11 @@ and (max-width: 414px)
     Projects
     --------------------------- */
 .projects {
- display:none;
+
   
 }
 
 
-.project-1 .icons{
-    display:none;
-}
-.project-description{
-    display:none;
-  
-  }
-  .project-description h4{
-    display:none;
-
-}
 
 
 
