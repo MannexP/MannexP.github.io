@@ -983,16 +983,6 @@ and (max-width: 414px)
   /* -------------------------
     Projects
     --------------------------- */
-.projects {
-
-  
-}
-
-
-
-
-
-
 
 
 /* ------------- */
@@ -1057,3 +1047,144 @@ font-weight: 100;
 } 
 
 } 
+
+
+/* ----------------------------
+--------------------------------
+MACBOOK-------------------------
+------------------------- */
+/* 960px - 2048px*/
+@media only screen
+and (min-width:1200px)
+and (max-width: 2560px) {
+    * NAV BAR */
+    /* -------- */
+   
+    .navBar li{
+        display:inline-block;
+        margin-left:30px;
+        padding-bottom: 50px;
+    }
+    .navBar li:first-child{
+        display: none;
+    }
+    .navBar li a {
+        color:#fff;
+        text-decoration: none;
+        font-size: 200%; 
+        margin-right:2rem;       
+    }
+
+    /* STICKY NAV */
+    /* ---------- */
+    .sticky { 
+        height:100px;
+    }
+
+    /* SITE HEADING */
+    /* -------------- */
+    .blurb{
+        width:100vw;
+        height:600px;
+        position: relative;
+        top: 30%;
+        left: 62%;
+        transform: translate(-50%, -50%); 
+        display:flex;
+        justify-content: center;
+        flex-direction:column;
+        align-content: center;
+
+    }
+
+    
+    .blurb h2{
+        margin-left:18%;
+        font-weight: 200;
+        font-size:600%;
+        margin-top:10%;
+        margin-bottom:5%;
+    
+    }
+    h2:after{
+        display: block;
+        height: 2px;
+        background-color:#FFEB3B;
+        content: "  ";
+        width: 800px;
+        margin: 0 auto;
+        margin-top: 30px; 
+        margin-left: 85px;
+    }
+    
+    .blurb h3{
+       
+        font-weight:200;
+        margin-left:10rem;
+        font-size:250%;
+        width:60%;
+    }
+   
+    
+    /* Buttons */
+    /* -------- */
+    
+    .btn{
+        margin:10rem;
+        margin:5rem;
+
+    }
+    
+    .res-btn{
+        
+        background-color:#FFEB3B;
+    
+        color:#212121;
+        padding:15px 50px;
+        font-size:120%;
+ 
+    }
+        
+    
+    .buttons{
+        margin-right:45%;
+    }
+    
+    .web-btn:link,
+    .web-btn:visited{
+       
+        border: 1px solid  rgba(100,92,23, 0.3);
+        color:#FFFFFF;
+        background-color: rgba(100,92,23, 0.3);
+        border: 1px solid rgba(100,92,23, 0.3);
+        font-size:120%;
+        font-weight:300;
+        letter-spacing: 1;
+        padding:50px;
+    }
+    
+    .web-btn:hover,
+    .web-btn:active{
+    background-color:rgba(100, 92, 23, 0.6);
+    color:#FFFFFF;
+    }
+    .res-btn:hover,
+    .res-btn:active{
+    background-color:rgb(231, 213, 53);
+    padding:50px;
+    }
+    
+    .far{
+        margin-left: 20px;
+        color:#212121;
+    }
+    
+    .fas{
+        margin-left: 10px;
+        color:#FFEB3B;
+    }
+    
+    
+    
+}
+
