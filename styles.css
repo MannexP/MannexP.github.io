@@ -771,6 +771,8 @@ footer{
 
 }  
 
+/* -----------------------FOR IPHONES 6/7------------------------- */
+
 @media only screen
 and (max-width: 414px)
 
@@ -843,8 +845,9 @@ and (max-width: 414px)
 }
 
 
-    /* About
-    ----------- */
+    /* -------------------------
+    About
+    --------------------------- */
     .about-me-headline h1{
      margin-top:-2rem;
      font-size:200%;
@@ -886,11 +889,9 @@ and (max-width: 414px)
    
 
 
-
-
-
-/* Projects
------------- */
+  /* -------------------------
+    Projects
+    --------------------------- */
 .projects {
  background:orange;
   
@@ -915,53 +916,45 @@ and (max-width: 414px)
 /* ---Contact--- */
 /* ----------- */
 
-.contact{
-    background-color:#ffffff;
-    display:grid;
-  
-
-    
-}
 .contact-form{
-    margin-left:-3.5rem;
-    
+    height:20rem;
+    width:20rem;
+    margin-left: -3.8rem;
    
-   
-} 
+}
+ 
 
 .contact .headline{
-   font-size:60%;
+   font-size:50%;
    margin-top:6rem;
    margin-bottom:0;
  
 
 }
 
+input[type=text],
+input[type=email],
+textarea {
+width:50%;
+height:80%;
+padding:10px;
+border-radius: 3px;
+border: 1px solid#ccc;
+font-size:15px;
+font-weight: 100;
+}
 
 
 /* ------------- */
 /* ---FOOTER--- */
 /* ----------- */
 
-footer{
-    height:15vh;
-    display:grid;
-    grid-template-columns: repeat(3, 1fr)
-    
-    
-}
-.copy{
-   margin:0;
- 
-}
-.copy p{
-    
-    display:none;
-}
- .social-links{
-   margin-right:3rem;
 
-   
+
+ .social-links{
+   margin-left:5rem;
+   padding-top:30px;
+
 } 
 
 .links{
@@ -969,6 +962,7 @@ footer{
     font-size: 3rem;
     margin-right:6rem;
     opacity: 0.9;
+    padding-top:-2.5rem;
 } 
 
 } 
