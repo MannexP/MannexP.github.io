@@ -728,72 +728,10 @@ and (max-width: 600px)
 .contact .headline{
    font-size:60%;
    margin-top:6rem;
+   margin-bottom:0;
+ 
 
 }
-
-input[type=text],
-input[type=email],
-textarea {
-width:60%;
-padding:10px;
-border-radius: 3px;
-border: 1px solid#ccc;
-font-size:15px;
-font-weight: 100;
-}
-
-
-.span-1-of-2{
-    display:flex;
-    justify-content: center;
-    margin-bottom:1rem;
-}
-
-.span-1-of3{
-margin-left:10rem;
-}
-.mess{
-height:200px;
-margin-bottom:1%;
-}
-
-#name{
-    margin-top:2%;
-}
-
-
-*:focus{
-    outline: none;
-}
-
-input[value]{
-    font-size:80%;
-}
-
-.heading{
-color:#212121;
-margin-left:5rem;
-}
-
-.send-btn{
-    background-color:#FFEB3B;
-    color:#212121;
-    padding:15px 40px;
-
-    width:150px;
-    border-radius:5px;
-    
-
-}
-
-.btm-btn{
-    display:flex;
-    justify-content:center;
-    margin-top:3%;
-    font-size:120%;
-}
-
-
 
 
 
@@ -832,3 +770,245 @@ footer{
 
 
 }  
+
+@media only screen
+and (max-width: 414px)
+
+/* Nav
+---------------
+ */
+{
+   
+    .navBar{
+       font-size:50%;
+       
+        
+    }
+    .navBar li a{
+        font-size:100%;
+        margin-right:-15px;
+          
+    }
+
+    .sticky .navBar{ 
+        font-size:50%;
+    }
+    /* Heading
+    -------------
+     */
+    .blurb{
+        top: 35%;
+    }
+     .blurb h2{
+        font-size:200%;
+        margin-left:12rem;
+        
+        
+     }
+
+     h2:after{
+        width: 200px;
+        margin: 0 auto;
+        margin-top: 40px; 
+        margin-left: 60px;
+    }
+    .blurb h3{
+      font-size:70%;
+      width:100vw;
+      margin-left:10rem;
+      margin-bottom:50px;
+      padding:1rem;
+
+    }
+    .btn{
+    
+        border-radius: 5px;
+        padding:10px;
+        text-decoration: none;
+        float:right;
+        margin-left:30px;
+        margin-top:3%;
+        margin:25px 
+        
+    }
+    
+    .res-btn{
+        
+        background-color:#FFEB3B;
+        
+        color:#212121;
+        padding:15px 50px;
+        font-size:120%;
+      
+    }
+        
+    
+    .buttons{
+        margin-right:16%;
+    }
+    
+    .web-btn:link,
+    .web-btn:visited{
+       
+        border: 1px solid  rgba(100,92,23, 0.3);
+        color:#FFFFFF;
+        background-color: rgba(100,92,23, 0.3);
+        border: 1px solid rgba(100,92,23, 0.3);
+        font-size:120%;
+        font-weight:300;
+        letter-spacing: 1;
+        padding:15px;
+    }
+    
+    .web-btn:hover,
+    .web-btn:active{
+    background-color:rgba(100, 92, 23, 0.6);
+    color:#FFFFFF;
+    }
+    .res-btn:hover,
+    .res-btn:active{
+    background-color:rgb(231, 213, 53);
+    
+    }
+    
+    .far{
+        margin-left: 20px;
+        color:#212121;
+    }
+    
+    .fas{
+        margin-left: 10px;
+        color:#FFEB3B;
+    }
+    
+
+    /* About
+    ----------- */
+    .about-me-headline h1{
+     margin-top:-3rem;
+     font-size:200%;
+    
+    }
+
+    .head-shot{
+        border: 1px solid #bdbdbd;
+        height:15rem;
+        width:15rem;
+        border-radius: 50%;  
+        margin-top:0px;
+        margin-left:7.5rem;
+          
+    }
+    h1::after{
+        display: block;
+        height: 2px;
+        background-color:#FFEB3B;
+        content: " ";
+        width: 100px;
+        margin: 0 auto;
+        margin-top: 30px; 
+    }
+
+    .about-me-blurb{
+        border:none; 
+        padding:0 1rem;
+        margin-right:5rem;
+        
+    }
+   
+
+    .about-me{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .about{
+        height:100vh;
+    }
+
+
+
+
+/* Projects
+------------ */
+.projects {
+ background:orange;
+  
+}
+
+
+.project-1 .icons{
+    border:none;
+    display:flex;
+}
+.project-description{
+    margin-top:15rem;
+    margin-left:5em;
+    margin-right:3em;
+  
+  }
+  .project-description h4{
+    font-size:150%;
+
+}
+/* ------------- */
+/* ---Contact--- */
+/* ----------- */
+
+.contact{
+    background-color:#ffffff;
+    display:grid;
+  
+
+    
+}
+.contact-form{
+    margin-left:-3.5rem;
+    
+   
+   
+} 
+
+.contact .headline{
+   font-size:60%;
+   margin-top:6rem;
+   margin-bottom:0;
+ 
+
+}
+
+
+
+/* ------------- */
+/* ---FOOTER--- */
+/* ----------- */
+
+footer{
+    height:15vh;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr)
+    
+    
+}
+.copy{
+   margin:0;
+ 
+}
+.copy p{
+    
+    display:none;
+}
+ .social-links{
+   margin-right:3rem;
+
+   
+} 
+
+.links{
+    color:#BDBDBD;
+    font-size: 3rem;
+    margin-right:6rem;
+    opacity: 0.9;
+} 
+
+} 
