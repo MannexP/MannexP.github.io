@@ -669,6 +669,7 @@ and (max-width: 600px)
         border:none; 
         padding:0 1rem;
         margin-right:5rem;
+       
         
     }
    
@@ -676,10 +677,12 @@ and (max-width: 600px)
     .about-me{
         display:flex;
         flex-direction: column;
+       
     }
 
     .about{
         height:100vh;
+        margin-bottom:3rem;
     }
 
 
@@ -687,25 +690,112 @@ and (max-width: 600px)
 
 /* Projects
 ------------ */
-.projects {
- background:orange;
+
+
+
+.projects{
+    margin-bottom:0px;
+    padding-block-end: 0%;
   
 }
-
-
-.project-1 .icons{
-    border:none;
-    display:flex;
+.project-1{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    background-image:url(/img/icons/Daug-project.png);
+    background-color:#fdfdfd;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    height:60vh;
+   
 }
+
 .project-description{
-    margin-top:15rem;
-    margin-left:5em;
-    margin-right:3em;
-  
-  }
-  .project-description h4{
-    font-size:150%;
+    display:none;
 
+}
+.project-description h4{
+    font-size:270%;
+
+}
+.project-description h3{
+    margin-top: 30px;
+    font-size:120%
+}
+
+
+ 
+
+.project-1{
+    display:flex;
+    background-image:url(/img/icons/Daug-project.png);
+    background-color:#fdfdfd;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    height:50vh;
+   
+}
+.project-1 h3,h4{
+    color:#212121; 
+}
+
+.icons{
+  display:none;
+}
+.icons {
+    display:none;
+}
+
+
+ .logo{
+    display:none;
+ }
+ .logo2{
+ display:none;
+}
+
+
+
+
+.project-2{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color:#1e265e;
+    background-image:url(/img/icons/ncr_project.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    height:50vh;
+    padding-top:0;
+}
+
+.project-2 h4, h3{
+    display:none;
+}
+
+#django{
+    display:none;
+}
+
+#python{
+    display:none;
+}
+#react{
+    display:none;
+}
+
+#psql{
+    display:none;
+}
+
+
+
+
+.project{
+    margin:0 10px;
+    width:100%;
+    margin:0;
 }
 /* ------------- */
 /* ---Contact--- */
@@ -714,6 +804,7 @@ and (max-width: 600px)
 .contact{
     background-color:#ffffff;
     display:grid;
+   
   
 
     
@@ -912,6 +1003,12 @@ and (max-width: 414px)
     font-size:150%;
 
 }
+
+
+
+
+
+
 /* ------------- */
 /* ---Contact--- */
 /* ----------- */
@@ -926,7 +1023,7 @@ and (max-width: 414px)
 
 .contact .headline{
    font-size:50%;
-   margin-top:6rem;
+   margin-top:4rem;
    margin-bottom:0;
  
 
