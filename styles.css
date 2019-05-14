@@ -990,17 +990,14 @@ and (max-width: 414px)
 
 
 .project-1 .icons{
-    border:none;
-    display:flex;
+    display:none;
 }
 .project-description{
-    margin-top:15rem;
-    margin-left:5em;
-    margin-right:3em;
+    display:none;
   
   }
   .project-description h4{
-    font-size:150%;
+    display:none;
 
 }
 
