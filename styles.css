@@ -1054,16 +1054,22 @@ font-weight: 100;
 MACBOOK-------------------------
 ------------------------- */
 /* 960px - 2048px*/
+
+
 @media only screen
 and (min-width:1200px)
 and (max-width: 2560px) {
-    * NAV BAR */
+     /* NAV BAR  */
     /* -------- */
-   
+    .navBar{
+        margin-top:3rem;   
+    }
+
     .navBar li{
         display:inline-block;
         margin-left:30px;
         padding-bottom: 50px;
+       
     }
     .navBar li:first-child{
         display: none;
@@ -1072,7 +1078,8 @@ and (max-width: 2560px) {
         color:#fff;
         text-decoration: none;
         font-size: 200%; 
-        margin-right:2rem;       
+        margin-right:2rem;  
+      
     }
 
     /* STICKY NAV */
@@ -1099,12 +1106,11 @@ and (max-width: 2560px) {
 
     
     .blurb h2{
-        margin-left:18%;
+        margin-left:19.5%;
         font-weight: 200;
         font-size:600%;
         margin-top:10%;
         margin-bottom:5%;
-    
     }
     h2:after{
         display: block;
@@ -1130,34 +1136,33 @@ and (max-width: 2560px) {
     /* -------- */
     
     .btn{
-        margin:10rem;
-        margin:5rem;
-
+        
+        text-decoration: none;
+        float: right;
+        margin-left: 30px;
+        margin-top: 3%;
+        margin: 25px;
     }
     
     .res-btn{
-        
         background-color:#FFEB3B;
-    
         color:#212121;
-        padding:15px 50px;
-        font-size:120%;
+        font-size:225%;
+        font-weight:300;
+        letter-spacing: 1;
+        padding:51px 130px;
+       
  
     }
         
     
     .buttons{
-        margin-right:45%;
+        margin-right:42%;
     }
     
     .web-btn:link,
     .web-btn:visited{
-       
-        border: 1px solid  rgba(100,92,23, 0.3);
-        color:#FFFFFF;
-        background-color: rgba(100,92,23, 0.3);
-        border: 1px solid rgba(100,92,23, 0.3);
-        font-size:120%;
+        font-size:225%;
         font-weight:300;
         letter-spacing: 1;
         padding:50px;
@@ -1177,11 +1182,15 @@ and (max-width: 2560px) {
     .far{
         margin-left: 20px;
         color:#212121;
+        font-size:100%;
+    
     }
     
     .fas{
         margin-left: 10px;
         color:#FFEB3B;
+        font-size:100%;
+        
     }
     
     
