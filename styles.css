@@ -1034,11 +1034,10 @@ MACBOOK-------------------------
     padding: 0;
   }
   .about-me-headline {
-    font-size:200%;
-    color:#212121;
- 
+    font-size: 200%;
+    color: #212121;
   }
- 
+
   .head-shot {
     height: 40rem;
     width: 40rem;
@@ -1049,9 +1048,9 @@ MACBOOK-------------------------
     border-left: 8px solid #bdbdbd;
   }
   p {
-    margin-left:8rem;
-    font-size:200%;
-    color:#212121;
+    margin-left: 8rem;
+    font-size: 200%;
+    color: #212121;
     letter-spacing: 3px;
     word-spacing: 5px;
     line-height: 60px;
@@ -1061,15 +1060,13 @@ MACBOOK-------------------------
   /* ---PROJECTS-- */
   /* ------------ */
 
- 
-  .project-1 {
-
-    background-size:100rem;
-   
+  .project-1,
+  .project-2 {
+    background-size: 100rem;
   }
-  
+
   .project-description {
-    margin-top: 25rem;
+    margin-top: 22rem;
   }
   .project-description h4 {
     font-size: 400%;
@@ -1085,98 +1082,35 @@ MACBOOK-------------------------
     margin-left: 0px;
   }
   .project-description h3 {
-    font-size:200%;
+    font-size: 200%;
   }
-  
-  .project-1 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    background-image: url(/img/icons/Daug-project.png);
-    background-color: #fdfdfd;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    height: 100vh;
-  }
-  .project-1 h3,
-  h4 {
-    color: #212121;
-  }
-  
-  .icons {
-    display: grid;
-    grid-template-rows: repeat(4, 25vh);
-    border-left: 3px solid #bdbdbd;
-  }
-  .icons {
-    /* margin-top:5em; */
-    padding: 0;
-  }
-  
+
+ 
+
   .logo {
-    margin-left: 10rem;
+    margin-left: 15rem;
     margin-top: 5rem;
+  }
+
+  .logo img{
+    height: 12rem;
   }
   .logo2 {
     margin-left: 10rem;
     margin-top: 2rem;
   }
-  
-  .project-2 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    background-color: #1e265e;
-    background-image: url(/img/icons/ncr_project.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    height: 100vh;
-    padding-top: 0;
+
+  .evenLogo #mongo{
+    margin-left:-4rem;
   }
-  
-  .project-2 h4,
-  h3 {
-    color: #e6e1e1;
+  .evenLogo #node{
+    margin-left:-3rem;
   }
-  
-  #django {
-    margin-top: 3rem;
-  }
-  
-  #python {
-    margin-top: 1rem;
-  }
-  #react {
-    margin-top: -3rem;
-  }
-  
-  #psql {
-    margin-top: -4rem;
-  }
-  
-  .project-3 {
-    background-color: blue;
-    background-image: url(/img/macbook.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    height: 100vh;
-  }
-  .project-4 {
-    background-image: url(/img/macbook.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    height: 100vh;
-  }
-  
-  .project {
-    margin: 0 10px;
-    width: 100%;
-    margin: 0;
-  }
+
+ 
+
   
 
-
-
+  
+  
 }
