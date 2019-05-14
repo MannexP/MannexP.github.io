@@ -780,13 +780,13 @@ and (max-width: 414px)
 {
    
     .navBar{
-       font-size:50%;
+       font-size:60%;
        
         
     }
     .navBar li a{
         font-size:100%;
-        margin-right:-15px;
+        margin-right:-20px;
           
     }
 
@@ -821,110 +821,62 @@ and (max-width: 414px)
 
     }
     .btn{
-    
-        border-radius: 5px;
-        padding:10px;
-        text-decoration: none;
-        float:right;
-        margin-left:30px;
-        margin-top:3%;
-        margin:25px 
-        
-    }
-    
-    .res-btn{
-        
-        background-color:#FFEB3B;
-        
-        color:#212121;
-        padding:15px 50px;
-        font-size:120%;
-      
-    }
-        
-    
-    .buttons{
-        margin-right:16%;
-    }
-    
-    .web-btn:link,
-    .web-btn:visited{
-       
-        border: 1px solid  rgba(100,92,23, 0.3);
-        color:#FFFFFF;
-        background-color: rgba(100,92,23, 0.3);
-        border: 1px solid rgba(100,92,23, 0.3);
-        font-size:120%;
-        font-weight:300;
-        letter-spacing: 1;
-        padding:15px;
-    }
-    
-    .web-btn:hover,
-    .web-btn:active{
-    background-color:rgba(100, 92, 23, 0.6);
-    color:#FFFFFF;
-    }
-    .res-btn:hover,
-    .res-btn:active{
-    background-color:rgb(231, 213, 53);
-    
-    }
-    
-    .far{
-        margin-left: 20px;
-        color:#212121;
-    }
-    
-    .fas{
-        margin-left: 10px;
-        color:#FFEB3B;
-    }
-    
+   height:50px;
+   width:100px;
+   margin-right:5rem; 
+}
+
+.res-btn
+{
+    margin-right:11rem;
+    padding:5px;
+    padding-top:5px;
+    font-size:80%;
+}
+
+.buttons{
+    margin-right:16%;
+}
+
+.buttons .web-btn{
+    display:none;
+}
+
 
     /* About
     ----------- */
     .about-me-headline h1{
-     margin-top:-3rem;
+     margin-top:-2rem;
      font-size:200%;
+     margin-right:.5rem;
+     margin-bottom:0;
     
     }
 
     .head-shot{
         border: 1px solid #bdbdbd;
-        height:15rem;
-        width:15rem;
+        height:10rem;
+        width:10rem;
         border-radius: 50%;  
         margin-top:0px;
-        margin-left:7.5rem;
+        margin-left:5rem;
           
     }
-    h1::after{
-        display: block;
-        height: 2px;
-        background-color:#FFEB3B;
-        content: " ";
-        width: 100px;
-        margin: 0 auto;
-        margin-top: 30px; 
+    .nothing{
+      display:hidden;
     }
+  
 
-    .about-me-blurb{
-        border:none; 
-        padding:0 1rem;
-        margin-right:5rem;
+    .about-me-blurb {
+    line-height:0px;
+     font-size:50%;
+       
         
     }
    
 
-    .about-me{
-        display:flex;
-        flex-direction: column;
-    }
+   
 
-    .about{
-        height:100vh;
-    }
 
 
 
