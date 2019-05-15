@@ -326,7 +326,7 @@ h4 {
   border-left: 3px solid #bdbdbd;
 }
 .icons {
-  /* margin-top:5em; */
+  
   padding: 0;
 }
 
@@ -1039,21 +1039,23 @@ MACBOOK-------------------------
   }
 
   .head-shot {
-    height: 40rem;
-    width: 40rem;
-    margin-top: 6rem;
+    height: 45rem;
+    width: 45rem;
+    margin-top: 8rem;
+    margin-left:-4rem;
   }
 
   .about-me-blurb {
-    border-left: 8px solid #bdbdbd;
+    border-left: 3px solid #bdbdbd;
   }
   p {
-    margin-left: 8rem;
+    margin-left: 10rem;
     font-size: 200%;
     color: #212121;
     letter-spacing: 3px;
     word-spacing: 5px;
     line-height: 60px;
+    
   }
 
   /* -------------- */
@@ -1066,7 +1068,7 @@ MACBOOK-------------------------
   }
 
   .project-description {
-    margin-top: 22rem;
+    margin-top: 30rem;
   }
   .project-description h4 {
     font-size: 400%;
@@ -1085,8 +1087,6 @@ MACBOOK-------------------------
     font-size: 200%;
   }
 
- 
-
   .logo {
     margin-left: 15rem;
     margin-top: 5rem;
@@ -1095,22 +1095,170 @@ MACBOOK-------------------------
   .logo img{
     height: 12rem;
   }
-  .logo2 {
-    margin-left: 10rem;
-    margin-top: 2rem;
+
+  .bigger img{
+    height:15rem;
+    margin-left:-2rem;
   }
+  
 
   .evenLogo #mongo{
-    margin-left:-4rem;
+    margin-left:-6rem;
   }
   .evenLogo #node{
     margin-left:-3rem;
   }
 
- 
-
+  .logo2 img{
+    height: 12rem;
+  }
+  .logo2 #python{
+  width:25rem;
+  }
   
+  .logo2 {
+    margin-left: 10rem;
+    margin-top: 2rem;
+  }
 
+  .logo2 #psql{
+    height:20rem;
+  }
+  .logo2 #react{
+    height:15rem;
+    margin-left:2rem;
+  }
+  
+  .left #python,
+  .left #django{
+    margin-left:-2rem;
+  }
+
+  /* --------------------
+  -------CONTACT--------
+  ------------------ */
+
+  .contact {
+    height: 100vh;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 30% 70%;
+  }
+  .contact-form {
+    height: 25rem;
+    width: 25rem;
+    background-color: white;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    margin: 0 auto;
+  }
+  
+  .contact .headline {
+   font-size:200%;
+  }
+  h1::after {
+    
+    height: 8px;
+    background-color: #ffeb3b;
+  
+    width: 300px;
+   
+    margin-top: 80px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 60%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid#ccc;
+    font-size: 15px;
+    font-weight: 100;
+  }
+  
+  .span-1-of-2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  .span-1-of3 {
+    margin-left: 10rem;
+  }
+  .mess {
+    height: 200px;
+    margin-bottom: 1%;
+  }
+  
+  #name {
+    margin-top: 2%;
+  }
+  
+  *:focus {
+    outline: none;
+  }
+  
+  input[value] {
+    font-size: 80%;
+  }
+  
+  .heading {
+    color: #212121;
+    margin-left: 5rem;
+  }
+  
+  .send-btn {
+    background-color: #ffeb3b;
+    color: #212121;
+    padding: 15px 40px;
+  
+    width: 150px;
+    border-radius: 5px;
+  }
+  
+  .btm-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    font-size: 120%;
+  }
+  /* -------------------*/
+  /* -----FOOTER------ */
+  /* ---------------- */
+  footer {
+    background-color: #1e265e;
+    height: 15vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .copy {
+    color: #bdbdbd;
+    font-weight: 100;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+  }
+  .copy p {
+    margin-right: 6rem;
+    font-weight: 300;
+  }
+  .social-links {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    align-items: stretch;
+    float: right;
+    padding-top: 2.5rem;
+  }
+  
+  .links {
+    color: #bdbdbd;
+    font-size: 3rem;
+    margin-right: 6rem;
+    opacity: 0.9;
+  }
+  
   
   
 }
