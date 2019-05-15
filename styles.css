@@ -831,7 +831,9 @@ input[value] {
   /* -------------------------
     Projects
     --------------------------- */
-
+    .projects{
+      display:none;
+    }
   /* ------------- */
   /* ---Contact--- */
   /* ----------- */
@@ -864,6 +866,7 @@ input[value] {
     color: #212121;
     padding: 4px 20px;
     margin-top: 20px;
+    margin-right:2rem;
   }
 
   /* ------------- */
