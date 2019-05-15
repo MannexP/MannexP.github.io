@@ -1138,49 +1138,39 @@ MACBOOK-------------------------
   -------CONTACT--------
   ------------------ */
 
-  .contact {
-    height: 100vh;
-    background-color: #ffffff;
-    display: grid;
-    grid-template-columns: 20% 60% 20%;
-    grid-template-rows: 30% 70%;
-  }
+
   .contact-form {
-    height: 25rem;
-    width: 25rem;
-    background-color: white;
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-    margin: 0 auto;
+    height: 65rem;
+    width: 50rem;
+    
   }
   
   .contact .headline {
    font-size:200%;
   }
-  h1::after {
-    
+  h1::after {  
     height: 8px;
     background-color: #ffeb3b;
-  
     width: 300px;
-   
     margin-top: 80px;
   }
   
   input[type="text"],
   input[type="email"],
   textarea {
-    width: 60%;
-    padding: 10px;
-    border-radius: 3px;
-    border: 1px solid#ccc;
-    font-size: 15px;
-    font-weight: 100;
+    width: 70%;
+    padding: 20px;
+    font-size: 200%;
+  }
+  textarea{
+    height:200%;
   }
   
   .span-1-of-2 {
     display: flex;
     justify-content: center;
     margin-bottom: 1rem;
+   
   }
   
   .span-1-of3 {
@@ -1200,22 +1190,26 @@ MACBOOK-------------------------
   }
   
   input[value] {
-    font-size: 80%;
+    font-size: 200%;
   }
   
   .heading {
     color: #212121;
-    margin-left: 5rem;
+    font-size:275%;
+    margin-left: 8rem;
   }
   
   .send-btn {
     background-color: #ffeb3b;
     color: #212121;
-    padding: 15px 40px;
-  
-    width: 150px;
+    padding: 30px 90px;
+    width: 500px;
     border-radius: 5px;
+    margin-top:13rem;
+    margin-right:3rem;
   }
+
+ 
   
   .btm-btn {
     display: flex;
