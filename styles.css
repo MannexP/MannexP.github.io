@@ -463,36 +463,26 @@ input[value] {
   background-color: #ffeb3b;
   color: #212121;
   padding: 15px 40px;
-
   width: 150px;
   border-radius: 5px;
-}
-
-.btm-btn {
-  display: flex;
-  justify-content: center;
-  margin-top: 3%;
-  font-size: 120%;
+  margin-left:2rem;
 }
 
 /* FOOTER */
 /* ---------------- */
-footer {
-  background-color: #1e265e;
-  height: 15vh;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
+
 .copy {
-  color: #bdbdbd;
   font-weight: 100;
   margin-top: 4rem;
-  display: flex;
-  justify-content: center;
+ 
 }
+
 .copy p {
-  margin-right: 6rem;
   font-weight: 300;
+  color: #bdbdbd;
+  display:inline;
+  padding:-10rem;
+  margin:-10rem;
 }
 .social-links {
   display: flex;
@@ -1209,14 +1199,8 @@ MACBOOK-------------------------
     margin-right:3rem;
   }
 
- 
+
   
-  .btm-btn {
-    display: flex;
-    justify-content: center;
-    margin-top: 3%;
-    font-size: 120%;
-  }
   /* -------------------*/
   /* -----FOOTER------ */
   /* ---------------- */
@@ -1226,33 +1210,28 @@ MACBOOK-------------------------
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
-  .copy {
-    color: #bdbdbd;
-    font-weight: 100;
-    margin-top: 4rem;
-    display: flex;
-    justify-content: center;
-  }
-  .copy p {
-    margin-right: 6rem;
-    font-weight: 300;
-  }
+ .social-container{
+    display:flex;
+    justify-content:center;
+ }
   .social-links {
     display: flex;
     justify-content: flex-end;
     list-style: none;
     align-items: stretch;
     float: right;
-    padding-top: 2.5rem;
+    padding-top: 4rem;
+    padding-left:5rem;
   }
   
   .links {
     color: #bdbdbd;
-    font-size: 3rem;
-    margin-right: 6rem;
+    font-size: 7rem;
+    
     opacity: 0.9;
   }
-  
+
+ 
   
   
 }
